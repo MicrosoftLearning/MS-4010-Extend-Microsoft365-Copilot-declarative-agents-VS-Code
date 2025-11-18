@@ -14,7 +14,7 @@ In this exercise, you will Microsoft Learn as a grounding source for your agent.
 
 ## Task 1 - Configure grounding data
 
-Configure the OneDrive folder as a source of grounding data in the declarative agent manifest.
+Configure Microsoft Learn as a source of grounding data in the declarative agent manifest.
 
 In Visual Studio Code:
 
