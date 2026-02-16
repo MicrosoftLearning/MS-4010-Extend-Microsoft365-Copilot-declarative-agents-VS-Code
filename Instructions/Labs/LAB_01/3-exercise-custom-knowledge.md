@@ -19,7 +19,7 @@ Configure Microsoft Learn as a source of grounding data in the declarative agent
 In Visual Studio Code:
 
 1. In the **appPackage** folder, open **declarativeAgent.json** file.
-1. Add the following code snippet to the file after the **"instructions"** definition, replacing **{URL}** with the direct URL to the Microsoft 365 laning page on Microsoft Learn:
+1. Add the following code snippet to the file after the **"instructions"** definition, replacing **{URL}** with the direct URL to the Microsoft 365 landing page on Microsoft Learn:
 
     ```json
     "capabilities": [
