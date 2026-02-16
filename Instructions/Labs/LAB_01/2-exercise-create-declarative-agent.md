@@ -130,7 +130,7 @@ Next, let’s run the declarative agent in Microsoft 365 Copilot Chat and valida
 
     ![Screenshot of Visual Studio Code. The Teams Toolkit icon is highlighted on the Activity Bar.](../media/LAB_01/teams-toolkit-open.png)
 
-1. In the **Lifecycle** section, select **Publish**. Wait for the actions to complete.
+1. In the **Lifecycle** section, select **Publish to Organization**. Wait for the actions to complete.
 
 1. Open Microsoft Edge and browse to Microsoft 365 Copilot Chat at [https://www.microsoft365.com/chat](https://www.microsoft365.com/chat).
 
