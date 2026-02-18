@@ -21,10 +21,9 @@ Start by creating a new API plugin for Microsoft 365 Copilot. Open Visual Studio
 In Visual Studio Code:
 
 1. In the **Activity Bar** (side bar), activate the Teams Toolkit extension.
-1. In the **Teams Toolkit** extension panel, choose **Create a New App**.
-1. From the list of project templates, choose **Copilot Agent**.
-1. From the list of app features, choose **Declarative Agent**.
-1. Choose the **Add plugin** option.
+1. In the **Teams Toolkit** extension panel, choose **Create a New Agent/App**.
+1. In the **New Project** dialog, choose **Declarative Agent**.
+1. Choose the **Add an Action** option.
 1. Choose the **Start with a new API** option.
 1. From the list of authentication types, choose **API Key (Bearer Token Auth)**.
 1. As the programming language, choose **TypeScript**.
