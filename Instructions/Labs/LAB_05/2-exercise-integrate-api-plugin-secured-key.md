@@ -107,7 +107,7 @@ In this project, you use Teams Toolkit to add the API key to the vault. Teams To
 
 In Visual Studio Code:
 
-1. Open the **./teampsapp.local.yml** file.
+1. Open the **./m365agents.local.yml** file.
 1. In the **provision** section, locate the **apiKey/register** task.
 
   ```yml
