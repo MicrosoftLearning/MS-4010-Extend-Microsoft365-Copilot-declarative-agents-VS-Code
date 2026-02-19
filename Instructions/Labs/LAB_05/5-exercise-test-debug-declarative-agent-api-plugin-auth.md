@@ -4,9 +4,17 @@ lab:
     module: 'LAB 05: Authenticate your API plugin for declarative agents with secured APIs'
 ---
 
-# Exercise 34 - Test declarative agent in Microsoft 365 Copilot
+# Exercise 4 - Test declarative agent in Microsoft 365 Copilot
 
 In this exercise, you will test and deploy your declarative agent to Microsoft 365 and test it using Microsoft 365 Copilot Chat.
+
+> [!NOTE]
+> Before continuing, update your **manifest.json** to align with the current schema:
+> - Update the **`id`** in `manifest.json` using the correct value from **TEAMS_APP_ID** in your **.env.local** file.
+> - Update the **`short`** name from `da-repairs-oauth${APP_NAME_SUFFIX}` to **`da-repairs-oauth`**.
+> - Rename **`copilotExtensions`** to **`copilotAgents`**.
+> - Rename **`declarativeCopilots`** to **`declarativeAgents`**.
+
 
 ### Exercise Duration
 
