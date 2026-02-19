@@ -21,10 +21,9 @@ To create a new declarative agent, open Visual Studio Code.
 In Visual Studio Code:
 
 1. In the **Activity Bar** (side bar), open the **Teams Toolkit** extension.
-1. In the Teams Toolkit pane, select the **Create a New App** button.
-1. In the **New Project** dialog, choose the **Agent** option.
-1. In the next dialog, choose the **Declarative Agent** option.
-1. Don't add a plugin by selecting the **No plugin** option.
+1. In the Teams Toolkit pane, select the **Create a New Agent/App** button.
+1. In the **New Project** dialog, choose the **Declarative Agent** option.
+1. Don't add a plugin by selecting the **No Action** option.
 1. Select a folder where you want to store the project on your computer.
 1. Name your project `da-it-policies`.
 
