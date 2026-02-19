@@ -8,6 +8,14 @@ lab:
 
 In this exercise, you will test and deploy your declarative agent to Microsoft 365 and test it using Microsoft 365 Copilot Chat.
 
+> [!NOTE]
+> Before continuing, update your **manifest.json** to align with the current schema:
+> - Update the **`id`** in `manifest.json` using the correct value from **TEAMS_APP_ID** in your **.env.local** file.
+> - Update the **`short`** name from `da-repairs-oauth${APP_NAME_SUFFIX}` to **`da-repairs-oauth`**.
+> - Rename **`copilotExtensions`** to **`copilotAgents`**.
+> - Rename **`declarativeCopilots`** to **`declarativeAgents`**.
+
+
 ### Exercise Duration
 
 - **Estimated Time to complete**: 5 minutes
