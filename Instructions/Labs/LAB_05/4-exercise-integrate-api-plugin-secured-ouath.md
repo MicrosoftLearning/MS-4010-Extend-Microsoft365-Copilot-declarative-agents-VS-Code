@@ -21,7 +21,7 @@ Start by downloading the sample project:
 1. Extract the ZIP file contents.
 1. Open the folder in Visual Studio Code.
 
-The sample project is a Teams Toolkit project that includes a declarative agent, an API plugin, and an API secured with Microsoft Entra ID. The API is running on Azure Functions and implements security using Azure Functions' built-in authentication and authorization capabilities, sometimes referred to as Easy Auth.
+The sample project is a Microsoft 365 Agents Toolkit project that includes a declarative agent, an API plugin, and an API secured with Microsoft Entra ID. The API is running on Azure Functions and implements security using Azure Functions' built-in authentication and authorization capabilities, sometimes referred to as Easy Auth.
 
 ## Task 2 - Examine the OAuth2 authorization configuration
 
@@ -121,7 +121,7 @@ In Visual Studio Code:
 
 ### Examine the vault task configuration
 
-In this project, you use Teams Toolkit to add the OAuth information to the vault. Teams Toolkit registers the OAuth information in the vault using a special task in the project's configuration.
+In this project, you use Microsoft 365 Agents Toolkit to add the OAuth information to the vault. Microsoft 365 Agents Toolkit registers the OAuth information in the vault using a special task in the project's configuration.
 
 In Visual Studio Code:
 
@@ -143,10 +143,10 @@ In Visual Studio Code:
     configurationId: OAUTH2AUTHCODE_CONFIGURATION_ID
   ```
 
-  The task takes the values of the **TEAMS_APP_ID**, **AAD_APP_CLIENT_ID**, and **SECRET_AAD_APP_CLIENT_SECRET** project variables, stored in the **env/.env.local** and **env/.env.local.user** files and registers them in the vault. It also enables Proof Key for Code Exchange (PKCE) as an extra security measure. Then, it takes the vault entry ID and writes it to the environment file **env/.env.local**. The outcome of this task is an environment variable named **OAUTH2AUTHCODE_CONFIGURATION_ID**. Teams Toolkit writes the value of this variable to the **appPackages/ai-plugin.json** file that contains the plugin definition. At runtime, the declarative agent that loads the API plugin, uses this ID to retrieve the OAuth information from the vault, and start and auth flow to get an access token.
+  The task takes the values of the **TEAMS_APP_ID**, **AAD_APP_CLIENT_ID**, and **SECRET_AAD_APP_CLIENT_SECRET** project variables, stored in the **env/.env.local** and **env/.env.local.user** files and registers them in the vault. It also enables Proof Key for Code Exchange (PKCE) as an extra security measure. Then, it takes the vault entry ID and writes it to the environment file **env/.env.local**. The outcome of this task is an environment variable named **OAUTH2AUTHCODE_CONFIGURATION_ID**. Microsoft 365 Agents Toolkit writes the value of this variable to the **appPackages/ai-plugin.json** file that contains the plugin definition. At runtime, the declarative agent that loads the API plugin, uses this ID to retrieve the OAuth information from the vault, and start and auth flow to get an access token.
 
   > **IMPORTANT**
-  > The **oauth/register** task is only responsible for registering the OAuth information in the vault if it doesn't exist yet. If the information already exists, Teams Toolkit will skip running this task.
+  > The **oauth/register** task is only responsible for registering the OAuth information in the vault if it doesn't exist yet. If the information already exists, Microsoft 365 Agents Toolkit will skip running this task.
 
 1. Next, locate the **oauth/update** task.
 
@@ -160,11 +160,11 @@ In Visual Studio Code:
     isPKCEEnabled: true
   ```
 
-  The task keeps the OAuth information in the vault synchronized with your project. It's necessary for your project to work properly. One of the key properties is the URL on which your API plugin is available. Each time you start your project, Teams Toolkit opens a dev tunnel on a new URL. The OAuth information in the vault needs to reference this URL for Copilot to be able to reach your API.
+  The task keeps the OAuth information in the vault synchronized with your project. It's necessary for your project to work properly. One of the key properties is the URL on which your API plugin is available. Each time you start your project, Microsoft 365 Agents Toolkit opens a dev tunnel on a new URL. The OAuth information in the vault needs to reference this URL for Copilot to be able to reach your API.
 
 ### Examine the authentication and authorization configuration
 
-The next part to explore is the Azure Functions' authentication and authorization settings. The API in this exercise uses Azure Functions' built-in authentication and authorization capabilities. Teams Toolkit configures these capabilities while provisioning Azure Functions to Azure.
+The next part to explore is the Azure Functions' authentication and authorization settings. The API in this exercise uses Azure Functions' built-in authentication and authorization capabilities. Microsoft 365 Agents Toolkit configures these capabilities while provisioning Azure Functions to Azure.
 
 In Visual Studio Code:
 

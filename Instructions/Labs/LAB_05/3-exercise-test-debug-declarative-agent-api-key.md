@@ -18,10 +18,10 @@ The final step is to test the declarative agent with the API plugin in Microsoft
 
 In Visual Studio Code:
 
-1. In the Activity Bar, activate the **Teams Toolkit** extension.
-1. In the **Teams Toolkit** extension panel, in the **Accounts** section, be sure you're signed in to your Microsoft 365 tenant.
+1. In the Activity Bar, activate the **Microsoft 365 Agents Toolkit** extension.
+1. In the **Microsoft 365 Agents Toolkit** extension panel, in the **Accounts** section, be sure you're signed in to your Microsoft 365 tenant.
 
-  ![Screenshot of Teams Toolkit showing the status of the connection to Microsoft 365.](../media/LAB_05/3-teams-toolkit-account.png)
+  ![Screenshot of Microsoft 365 Agents Toolkit showing the status of the connection to Microsoft 365.](../media/LAB_05/3-teams-toolkit-account.png)
 
 1. In the Activity Bar, switch to the Run and Debug view.
 1. From the list of configurations, choose **Debug in Copilot (Edge)** and press the play button to start debugging.
