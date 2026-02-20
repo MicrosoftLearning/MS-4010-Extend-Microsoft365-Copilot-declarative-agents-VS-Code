@@ -16,7 +16,7 @@ Suppose you work in a customer support team. You and your team handle queries ab
 
 Here, you create a declarative agent which can answer product support questions using information stored in documents in Microsoft 365:
 
-- **Create**: Create a declarative agent project and use Teams Toolkit in Visual Studio Code.
+- **Create**: Create a declarative agent project and use Microsoft 365 Agents Toolkit in Visual Studio Code.
 - **Custom instructions**: Shape responses by defining custom instructions.
 - **Custom grounding**: Add extra context to the agent by configuring grounding data.
 - **Conversation starters**: Define prompts for starting new conversations.
@@ -29,7 +29,7 @@ Here, you create a declarative agent which can answer product support questions 
 - Microsoft 365 tenant with Microsoft 365 Copilot
 - Account with rights to upload custom apps to Microsoft Teams
 - Access to a Microsoft 365 tenant with Microsoft 365 Copilot
-- [Visual Studio Code](https://code.visualstudio.com/) with the [Teams Toolkit](https://marketplace.visualstudio.com/items?itemName=TeamsDevApp.ms-teams-vscode-extension) extension installed
+- [Visual Studio Code](https://code.visualstudio.com/) with the [Microsoft 365 Agents Toolkit](https://marketplace.visualstudio.com/items?itemName=TeamsDevApp.ms-teams-vscode-extension) extension installed
 - [Node.js v18](https://nodejs.org/en/download/package-manager)
 
 ## Lab Duration
