@@ -18,8 +18,8 @@ To test your declarative agent, deploy it as an app to your Microsoft 365 tenant
 
 In Visual Studio Code:
 
-1. In the **Activity Bar** (side bar), open the **Teams Toolkit** extension.
-1. From the **Lifecycle** pane, choose **Provision**. Teams Toolkit packages the declarative agent project as an app and uploads it to Microsoft 365.
+1. In the **Activity Bar** (side bar), open the **Microsoft 365 Agents Toolkit** extension.
+1. From the **Lifecycle** pane, choose **Provision**. Microsoft 365 Agents Toolkit packages the declarative agent project as an app and uploads it to Microsoft 365.
 1. Open a web browser.
 
 In a web browser:

@@ -14,14 +14,14 @@ In this exercise, you will create a new declarative agent from scratch and confi
 
 ## Task 1 - Create a new declarative agent
 
-One way to create a declarative agent is by using Teams Toolkit. Teams Toolkit offers a template project for creating declarative agents, which gives you a great place to start with configuring your agent's settings and including extra capabilities.
+One way to create a declarative agent is by using Microsoft 365 Agents Toolkit. Microsoft 365 Agents Toolkit offers a template project for creating declarative agents, which gives you a great place to start with configuring your agent's settings and including extra capabilities.
 
 To create a new declarative agent, open Visual Studio Code.
 
 In Visual Studio Code:
 
-1. In the **Activity Bar** (side bar), open the **Teams Toolkit** extension.
-1. In the Teams Toolkit pane, select the **Create a New Agent/App** button.
+1. In the **Activity Bar** (side bar), open the **Microsoft 365 Agents Toolkit** extension.
+1. In the Microsoft 365 Agents Toolkit pane, select the **Create a New Agent/App** button.
 1. In the **New Project** dialog, choose the **Declarative Agent** option.
 1. Don't add a plugin by selecting the **No Action** option.
 1. Select a folder where you want to store the project on your computer.
@@ -29,7 +29,7 @@ In Visual Studio Code:
 
 ## Task 2 - Configure declarative agent instructions
 
-Teams Toolkit creates a new declarative agent project. To scope it to your scenario, update the agent's description and instructions.
+Microsoft 365 Agents Toolkit creates a new declarative agent project. To scope it to your scenario, update the agent's description and instructions.
 
 In Visual Studio Code:
 
