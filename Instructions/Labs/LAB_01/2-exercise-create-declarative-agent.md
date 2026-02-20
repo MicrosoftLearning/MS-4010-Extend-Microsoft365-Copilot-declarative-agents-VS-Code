@@ -40,7 +40,7 @@ The starter project contains a Microsoft 365 Agents Toolkit project that include
 1. Open the project folder in Visual Studio Code.
 1. In the project root folder, open **README.md** file. Examine the contents for more information about the project structure.
 
-![Screenshot of Visual Studio Code that shows the starter project readme file and folder structure in the Explorer view.](../media/LAB_01/create-complete.png)
+![Screenshot of Visual Studio Code that shows the starter project readme file and folder structure in the Explorer view.](../media/LAB_01/m365-agents-toolkit-project.png)
 
 ## Task 3 - Examine declarative agent manifest
 
@@ -95,7 +95,7 @@ In Visual Studio Code:
 
 1. In the **Activity Bar**, open the **Microsoft 365 Agents Toolkit** extension.
 
-    ![Screenshot of Visual Studio Code. The Microsoft 365 Agents Toolkit icon is highlighted on the Activity Bar.](../media/LAB_01/teams-toolkit-open.png)
+    ![Screenshot of Visual Studio Code. The Microsoft 365 Agents Toolkit icon is highlighted on the Activity Bar.](../media/LAB_01/m365-agents-toolkit-open.png)
 
 1. In the **Lifecycle** section, select **Provision**.
 
@@ -128,7 +128,7 @@ Next, let’s run the declarative agent in Microsoft 365 Copilot Chat and valida
 
 1. In the **Activity Bar**, open the **Microsoft 365 Agents Toolkit** extension.
 
-    ![Screenshot of Visual Studio Code. The Microsoft 365 Agents Toolkit icon is highlighted on the Activity Bar.](../media/LAB_01/teams-toolkit-open.png)
+    ![Screenshot of Visual Studio Code. The Microsoft 365 Agents Toolkit icon is highlighted on the Activity Bar.](../media/LAB_01/m365-agents-toolkit-open.png)
 
 1. In the **Lifecycle** section, select **Publish to Organization**. Wait for the actions to complete.
 

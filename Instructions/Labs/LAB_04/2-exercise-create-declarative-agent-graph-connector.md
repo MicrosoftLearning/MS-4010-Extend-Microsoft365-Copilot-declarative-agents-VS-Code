@@ -32,7 +32,7 @@ In Visual Studio Code:
 1. In the **Accounts** pane, confirm that you're connected to your **Microsoft 365 tenant**.
 1. In the **Accounts** pane, confirm that you're connected to your **Azure subscription**.
 
-    ![Screenshot of Microsoft 365 Agents Toolkit showing signed in accounts.](../media/LAB_04/3-teams-toolkit-accounts.png)
+    ![Screenshot of Microsoft 365 Agents Toolkit showing signed in accounts.](../media/LAB_04/3-m365-agents-toolkit-accounts.png)
 
 > [!NOTE]
 > If you do not a full Microsoft 365 Copilot license, you may see that "Copilot Access Disabled." The exercises can still be completed, although you may not be able to fully test the agent in Microsoft 365 Copilot Chat.

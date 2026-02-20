@@ -19,7 +19,7 @@ In Visual Studio Code:
 1. From the **Activity Bar**, choose **Microsoft 365 Agents Toolkit**.
 1. In the **Accounts** section, ensure that you're signed in to your Microsoft 365 tenant with Microsoft 365 Copilot.
 
-    ![Screenshot of the Microsoft 365 Agents Toolkit accounts section in Visual Studio Code.](../media/LAB_03/3-teams-toolkit-accounts.png)
+    ![Screenshot of the Microsoft 365 Agents Toolkit accounts section in Visual Studio Code.](../media/LAB_03/3-m365-agents-toolkit-accounts.png)
 
 1. From the **Activity Bar**, choose **Run and Debug**.
 1. Select the **Debug in Copilot** configuration and start debugging using the **Start Debugging** button.  
