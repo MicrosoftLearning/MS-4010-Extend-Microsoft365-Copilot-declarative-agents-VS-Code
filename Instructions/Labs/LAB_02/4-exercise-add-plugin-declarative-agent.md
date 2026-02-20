@@ -37,7 +37,7 @@ In Visual Studio Code:
       "$schema": "https://developer.microsoft.com/json-schemas/copilot/declarative-agent/v1.0/schema.json",
       "version": "v1.0",
       "name": "Declarative agent",
-      "description": "Declarative agent created with Teams Toolkit",
+      "description": "Declarative agent created with Microsoft 365 Agents Toolkit",
       "instructions": "$[file('instruction.txt')]",
       "actions": [
         {
@@ -168,7 +168,7 @@ In Visual Studio Code:
 
 ## Task 3 - Update the API URL
 
-Before you can test your declarative agent, you need to update the URL of the API in the API specification file. Right now, the URL is set to `http://localhost:7071/api` which is the URL that Azure Functions uses when running locally. However, because you want Copilot to call your API from the cloud, you need to expose your API to the internet. Teams Toolkit automatically exposes your local API over the internet, by creating a dev tunnel. Each time you start debugging your project, Teams Toolkit starts a new dev tunnel and stores its URL in the **OPENAPI_SERVER_URL** variable. You can see how Teams Toolkit starts the tunnel and stores its URL in the **.vscode/tasks.json** file, in the **Start local tunnel** task:
+Before you can test your declarative agent, you need to update the URL of the API in the API specification file. Right now, the URL is set to `http://localhost:7071/api` which is the URL that Azure Functions uses when running locally. However, because you want Copilot to call your API from the cloud, you need to expose your API to the internet. Microsoft 365 Agents Toolkit automatically exposes your local API over the internet, by creating a dev tunnel. Each time you start debugging your project, Microsoft 365 Agents Toolkit starts a new dev tunnel and stores its URL in the **OPENAPI_SERVER_URL** variable. You can see how Microsoft 365 Agents Toolkit starts the tunnel and stores its URL in the **.vscode/tasks.json** file, in the **Start local tunnel** task:
 
 ```json
 {

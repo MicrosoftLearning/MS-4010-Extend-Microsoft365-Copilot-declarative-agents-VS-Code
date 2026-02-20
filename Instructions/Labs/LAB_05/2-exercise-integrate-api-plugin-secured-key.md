@@ -20,17 +20,18 @@ Start by creating a new API plugin for Microsoft 365 Copilot. Open Visual Studio
 
 In Visual Studio Code:
 
-1. In the **Activity Bar** (side bar), activate the Teams Toolkit extension.
-1. In the **Teams Toolkit** extension panel, choose **Create a New Agent/App**.
-1. In the **New Project** dialog, choose **Declarative Agent**.
-1. Choose the **Add an Action** option.
+1. In the **Activity Bar** (side bar), activate the Microsoft 365 Agents Toolkit extension.
+1. In the **Microsoft 365 Agents Toolkit** extension panel, choose **Create a New App**.
+1. From the list of project templates, choose **Copilot Agent**.
+1. From the list of app features, choose **Declarative Agent**.
+1. Choose the **Add plugin** option.
 1. Choose the **Start with a new API** option.
 1. From the list of authentication types, choose **API Key (Bearer Token Auth)**.
 1. As the programming language, choose **TypeScript**.
 1. Choose a folder to store your project.
 1. Name your project **da-repairs-key**.
 
-Teams Toolkit creates a new project that includes a declarative agent, an API plugin, and an API secured with a key.
+Microsoft 365 Agents Toolkit creates a new project that includes a declarative agent, an API plugin, and an API secured with a key.
 
 ## Task 2 - Examine the API key authentication configuration
 
@@ -102,7 +103,7 @@ This code shows a simplistic implementation of API key security, but it illustra
 
 ### Examine the vault task configuration
 
-In this project, you use Teams Toolkit to add the API key to the vault. Teams Toolkit registers the API key in the vault using a special task in the project's configuration.
+In this project, you use Microsoft 365 Agents Toolkit to add the API key to the vault. Microsoft 365 Agents Toolkit registers the API key in the vault using a special task in the project's configuration.
 
 In Visual Studio Code:
 
@@ -127,11 +128,11 @@ In Visual Studio Code:
     registrationId: APIKEY_REGISTRATION_ID
   ```
 
-  The task takes the value of the **SECRET_API_KEY** project variable, stored in the **env/.env.local.user** file and registers it in the vault. Then, it takes the vault entry ID and writes it to the environment file **env/.env.local**. The outcome of this task is an environment variable named **APIKEY_REGISTRATION_ID**. Teams Toolkit writes the value of this variable to the **appPackages/ai-plugin.json** file that contains the plugin definition. At runtime, the declarative agent that loads the API plugin, uses this ID to retrieve the API key from the vault, and call the API securely.
+  The task takes the value of the **SECRET_API_KEY** project variable, stored in the **env/.env.local.user** file and registers it in the vault. Then, it takes the vault entry ID and writes it to the environment file **env/.env.local**. The outcome of this task is an environment variable named **APIKEY_REGISTRATION_ID**. Microsoft 365 Agents Toolkit writes the value of this variable to the **appPackages/ai-plugin.json** file that contains the plugin definition. At runtime, the declarative agent that loads the API plugin, uses this ID to retrieve the API key from the vault, and call the API securely.
 
 ## Task 3 - Configure API key for local development
 
-Before you can test the project, you need to define an API key for your API. Then, store the API key in the vault and record the vault entry ID in your API plugin. For local development, store the API key in your project and use Teams Toolkit to register it in the vault for you.
+Before you can test the project, you need to define an API key for your API. Then, store the API key in the vault and record the vault entry ID in your API plugin. For local development, store the API key in your project and use Microsoft 365 Agents Toolkit to register it in the vault for you.
 
 In Visual Studio Code:
 
@@ -149,4 +150,4 @@ In Visual Studio Code:
 
 1. Save your changes.
 
-Each time you build the project, Teams Toolkit automatically updates the API key in the vault and updates your project with vault entry ID.
+Each time you build the project, Microsoft 365 Agents Toolkit automatically updates the API key in the vault and updates your project with vault entry ID.

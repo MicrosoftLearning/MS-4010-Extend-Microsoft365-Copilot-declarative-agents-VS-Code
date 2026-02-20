@@ -28,18 +28,18 @@ In Visual Studio Code:
 
 1. From the File menu, choose the **Open folder...** option.
 1. Open the project folder you just extracted to your **Documents folder**.
-1. In the **Activity Bar** (side bar), open the **Teams Toolkit** extension.
+1. In the **Activity Bar** (side bar), open the **Microsoft 365 Agents Toolkit** extension.
 1. In the **Accounts** pane, confirm that you're connected to your **Microsoft 365 tenant**.
 1. In the **Accounts** pane, confirm that you're connected to your **Azure subscription**.
 
-    ![Screenshot of Teams Toolkit showing signed in accounts.](../media/LAB_04/3-teams-toolkit-accounts.png)
+    ![Screenshot of Microsoft 365 Agents Toolkit showing signed in accounts.](../media/LAB_04/3-m365-agents-toolkit-accounts.png)
 
 > [!NOTE]
 > If you do not a full Microsoft 365 Copilot license, you may see that "Copilot Access Disabled." The exercises can still be completed, although you may not be able to fully test the agent in Microsoft 365 Copilot Chat.
 
 ## Task 2 - Run project and create connection to Microsoft 365
 
-1. Start the project by pressing <kbd>F5</kbd>. Teams Toolkit creates a new Microsoft Entra app registration in your tenant that allows the Graph connector to communicate with your Microsoft 365 tenant. Teams Toolkit also starts the timer-triggered Azure Function which hosts the Graph connector.
+1. Start the project by pressing <kbd>F5</kbd>. Microsoft 365 Agents Toolkit creates a new Microsoft Entra app registration in your tenant that allows the Graph connector to communicate with your Microsoft 365 tenant. Microsoft 365 Agents Toolkit also starts the timer-triggered Azure Function which hosts the Graph connector.
 
 > [!IMPORTANT]
 > This step can take up to 10 minutes or more to complete, do not close until you have completed the exercise.

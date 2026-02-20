@@ -96,7 +96,7 @@ Next, upload your changes and start a debug session.
 
 In Visual Studio Code:
 
-1. In the **Activity Bar**, open the **Teams Toolkit** extension.
+1. In the **Activity Bar**, open the **Microsoft 365 Agents Toolkit** extension.
 1. In the **Lifecycle** section, select **Provision** and then **Publish**.
 1. **Confirm** that you want to submit an update to the app catalog.
 1. Wait for the upload to complete.

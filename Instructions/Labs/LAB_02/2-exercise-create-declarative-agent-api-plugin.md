@@ -21,7 +21,7 @@ Start by downloading the sample project. In a web browser:
     1. Extract the contents of the downloaded ZIP file and extract it to your **Documents folder**.
     1. Open the folder in Visual Studio Code.
 
-The sample project is a Teams Toolkit project that includes a declarative agent and an anonymous API running on Azure Functions. The declarative agent is identical to a newly created declarative agent using Teams Toolkit. The API belongs to a fictitious Italian restaurant and allows you to browse today's menu and place orders.
+The sample project is a Microsoft 365 Agents Toolkit project that includes a declarative agent and an anonymous API running on Azure Functions. The declarative agent is identical to a newly created declarative agent using Microsoft 365 Agents Toolkit. The API belongs to a fictitious Italian restaurant and allows you to browse today's menu and place orders.
 
 ## Task 2 - Examine the API definition
 

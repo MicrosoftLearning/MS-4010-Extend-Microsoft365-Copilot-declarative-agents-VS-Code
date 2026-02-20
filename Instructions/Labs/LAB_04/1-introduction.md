@@ -22,6 +22,6 @@ By the end of this module, you'll be able to build declarative agents for Micros
 - Knowledge of how to build a Microsoft 365 Copilot declarative agent
 - Knowledge of how to build a Graph connector
 - Microsoft 365 tenant with Microsoft 365 Copilot, and tenant administrator privileges
-- [Visual Studio Code](https://code.visualstudio.com/) with the [Teams Toolkit](https://marketplace.visualstudio.com/items?itemName=TeamsDevApp.ms-teams-vscode-extension) extension installed
+- [Visual Studio Code](https://code.visualstudio.com/) with the [Microsoft 365 Agents Toolkit](https://marketplace.visualstudio.com/items?itemName=TeamsDevApp.ms-teams-vscode-extension) extension installed
 - [Azure Functions Core Tools](https://learn.microsoft.com/azure/azure-functions/functions-run-local#install-the-azure-functions-core-tools)
 - [Node.js v18](https://nodejs.org/)

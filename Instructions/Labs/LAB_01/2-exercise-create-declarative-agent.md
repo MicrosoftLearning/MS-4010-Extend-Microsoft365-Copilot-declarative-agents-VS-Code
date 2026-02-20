@@ -20,7 +20,7 @@ A declarative agent is implemented in a Microsoft 365 app. You create an app pac
 
 ## Task 1 - Enable custom app uploads in Teams admin center
 
-To upload declarative agents to Microsoft 365 through Teams Toolkit, you'll need to enable **Custom app uploads** in the Teams admin center.
+To upload declarative agents to Microsoft 365 through Microsoft 365 Agents Toolkit, you'll need to enable **Custom app uploads** in the Teams admin center.
 
 1. Navigate to Teams apps > App setup policies in the Teams admin center or go directly to [App setup policies](https://admin.teams.microsoft.com/policies/app-setup).
 1. Select **Global (Org-wide default)** from the list of policies.
@@ -35,12 +35,12 @@ Start by downloading the sample project from GitHub in a web browser:
     1. Follow the steps to [download the repository source code](https://docs.github.com/repositories/working-with-files/using-files/downloading-source-code-archives#downloading-source-code-archives-from-the-repository-view) to your computer.
     1. Extract the contents of the downloaded ZIP file and extract it to your **Documents folder**.
 
-The starter project contains a Teams Toolkit project that includes a declarative agent.
+The starter project contains a Microsoft 365 Agents Toolkit project that includes a declarative agent.
 
 1. Open the project folder in Visual Studio Code.
 1. In the project root folder, open **README.md** file. Examine the contents for more information about the project structure.
 
-![Screenshot of Visual Studio Code that shows the starter project readme file and folder structure in the Explorer view.](../media/LAB_01/create-complete.png)
+![Screenshot of Visual Studio Code that shows the starter project readme file and folder structure in the Explorer view.](../media/LAB_01/m365-agents-toolkit-project.png)
 
 ## Task 3 - Examine declarative agent manifest
 
@@ -53,17 +53,17 @@ Let's examine the declarative agent manifest file:
         "$schema": "https://aka.ms/json-schemas/agent/declarative-agent/v1.0/schema.json",
         "version": "v1.0",
         "name": "da-product-support",
-        "description": "Declarative agent created with Teams Toolkit",
+        "description": "Declarative agent created with Microsoft 365 Agents Toolkit",
         "instructions": "$[file('instruction.txt')]"
     }
     ```
 
-The value of the **instructions** property contains a reference to a file named **instruction.txt**. The **$[file(path)]** function is provided by Teams Toolkit. The contents of the **instruction.txt** are included in the declarative agent manifest file when provisioned to Microsoft 365.
+The value of the **instructions** property contains a reference to a file named **instruction.txt**. The **$[file(path)]** function is provided by Microsoft 365 Agents Toolkit. The contents of the **instruction.txt** are included in the declarative agent manifest file when provisioned to Microsoft 365.
 
 - In the **appPackage** folder, open **instruction.txt** file and review the contents:
 
     ```md
-    You are a declarative agent and were created with Team Toolkit. You should start every response and answer to the user with "Thanks for using Teams Toolkit to create your declarative agent!\n\n" and then answer the questions and help the user.
+    You are a declarative agent and were created with Microsoft 365 Agents Toolkit. You should start every response and answer to the user with "Thanks for using Microsoft 365 Agents Toolkit to create your declarative agent!\n\n" and then answer the questions and help the user.
     ```
 
 ## Task 4 - Update the declarative agent manifest
@@ -93,15 +93,15 @@ Next, upload your declarative agent to your Microsoft 365 tenant.
 
 In Visual Studio Code:
 
-1. In the **Activity Bar**, open the **Teams Toolkit** extension.
+1. In the **Activity Bar**, open the **Microsoft 365 Agents Toolkit** extension.
 
-    ![Screenshot of Visual Studio Code. The Teams Toolkit icon is highlighted on the Activity Bar.](../media/LAB_01/teams-toolkit-open.png)
+    ![Screenshot of Visual Studio Code. The Microsoft 365 Agents Toolkit icon is highlighted on the Activity Bar.](../media/LAB_01/m365-agents-toolkit-open.png)
 
 1. In the **Lifecycle** section, select **Provision**.
 
-    ![Screenshot of Visual Studio Code showing the Teams Toolkit view. The 'Provision' function is highlighted in the Lifecycle section.](../media/LAB_01/provision.png)
+    ![Screenshot of Visual Studio Code showing the Microsoft 365 Agents Toolkit view. The 'Provision' function is highlighted in the Lifecycle section.](../media/LAB_01/provision.png)
 
-1. In the prompt, select **Sign in** and follow the prompts to sign in to your Microsoft 365 tenant using Teams Toolkit. The provisioning process starts automatically after you sign in.
+1. In the prompt, select **Sign in** and follow the prompts to sign in to your Microsoft 365 tenant using Microsoft 365 Agents Toolkit. The provisioning process starts automatically after you sign in.
 
     ![Screenshot of a prompt from Visual Studio Code asking the user to sign in to Microsoft 365. The Sign in button is highlighted.](../media/LAB_01/provision-sign-in.png)
 
@@ -126,9 +126,9 @@ Notice that the **instructions** property value contains the contents of the **i
 
 Next, let’s run the declarative agent in Microsoft 365 Copilot Chat and validate its functionality.
 
-1. In the **Activity Bar**, open the **Teams Toolkit** extension.
+1. In the **Activity Bar**, open the **Microsoft 365 Agents Toolkit** extension.
 
-    ![Screenshot of Visual Studio Code. The Teams Toolkit icon is highlighted on the Activity Bar.](../media/LAB_01/teams-toolkit-open.png)
+    ![Screenshot of Visual Studio Code. The Microsoft 365 Agents Toolkit icon is highlighted on the Activity Bar.](../media/LAB_01/m365-agents-toolkit-open.png)
 
 1. In the **Lifecycle** section, select **Publish to Organization**. Wait for the actions to complete.
 
