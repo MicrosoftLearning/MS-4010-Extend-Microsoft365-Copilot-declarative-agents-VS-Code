@@ -1,7 +1,14 @@
 ---
 lab:
-    title: 'Exercise 1 - Download project and examine files'
-    module: 'LAB 02: Build your first action for declarative agents with API plugin by using Visual Studio Code'
+  title: Exercise 1 - Download project and examine files
+  module: 'LAB 02: Build your first action for declarative agents with API plugin
+    by using Visual Studio Code'
+  description: Extending a declarative agent with actions allows it to retrieve and
+    update data stored in external systems in real-time. Using API plugins, you can
+    connect to external systems through their APIs to retrieve and update information.
+  duration: 10 minutes
+  level: 100
+  islab: true
 ---
 
 # Exercise 1 - Download project and examine files
