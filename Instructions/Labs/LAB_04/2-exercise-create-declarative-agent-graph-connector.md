@@ -1,7 +1,20 @@
 ---
 lab:
-    title: 'Exercise 1 - Create an external connection for the Graph connector'
-    module: 'LAB 04: Add custom knowledge to declarative agents using Microsoft Graph connectors and Visual Studio Code'
+  title: Exercise 1 - Create an external connection for the Graph connector
+  module: 'LAB 04: Add custom knowledge to declarative agents using Microsoft Graph
+    connectors and Visual Studio Code'
+  description: Extending a declarative agent with knowledge gives it access to additional
+    information that's not a part of its Large Language Model. Using Graph connectors,
+    you can ingest external data to Microsoft 365, where it's available to different
+    user experiences, including Microsoft 365 Copilot. When configuring a Copilot
+    agent's knowledge settings, you can integrate it with an external connection created
+    by a Graph connector.
+  duration: 10 minutes
+  level: 200
+  islab: true
+  primarytopics:
+  - Microsoft 365
+  - Microsoft 365 Copilot
 ---
 
 # Exercise 1 - Create an external connection for the Graph connector
