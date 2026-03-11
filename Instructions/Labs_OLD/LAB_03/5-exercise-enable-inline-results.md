@@ -1,7 +1,13 @@
 ---
 lab:
-    title: 'Exercise 4 – Enable external connection for inline results'
-    module: 'LAB 02: Integrate external content with Copilot for Microsoft 365 using Microsoft Graph connectors built with .NET'
+  title: Exercise 4 – Enable external connection for inline results
+  module: 'LAB 02: Integrate external content with Copilot for Microsoft 365 using Microsoft Graph connectors built with .NET'
+  description: In this exercise you learn how to enable an external connection for inline results, which is required for Copilot for Microsoft 365 to use the external content in its answers.
+  duration: 34 minutes
+  level: 200
+  islab: true
+  primarytopics:
+    - Microsoft 365
 ---
 
 # Exercise 4 – Enable external connection for inline results
