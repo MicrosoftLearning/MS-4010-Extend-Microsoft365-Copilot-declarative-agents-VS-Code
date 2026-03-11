@@ -1,7 +1,15 @@
 ---
 lab:
-    title: 'Exercise 4 - Extend and optimize message extensions for use with Microsoft 365 Copilot'
-    module: 'LAB 01: Connect Microsoft 365 Copilot to your external data in real-time with message extension plugins built with .NET and Visual Studio'
+  title: Exercise 4 - Extend and optimize message extensions for use with Microsoft 365 Copilot
+  module: 'LAB 01: Connect Microsoft 365 Copilot to your external data in real-time with message extension plugins built with .NET and Visual Studio'
+  description: In this exercise, you extend and optimize your message extension for use with Microsoft 365 Copilot. You add a new parameter called Target Audience and update the message extension logic to handle multiple parameters. Finally, you run and debug your message extension and test it in Copilot in Microsoft Teams.
+  duration: 40 minutes
+  level: 100
+  islab: true
+  primarytopics:
+    - Microsoft 365
+    - Microsoft 365 Copilot
+    - Microsoft Teams
 ---
 
 # Exercise 4 - Extend and optimize message extensions for use with Microsoft 365 Copilot
