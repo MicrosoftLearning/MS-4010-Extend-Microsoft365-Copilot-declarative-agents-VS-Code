@@ -1,7 +1,19 @@
 ---
 lab:
-    title: 'Introduction'
-    module: 'LAB 04: Add custom knowledge to declarative agents using Microsoft Graph connectors and Visual Studio Code'
+  title: Introduction
+  module: 'LAB 04: Add custom knowledge to declarative agents using Microsoft Graph
+    connectors and Visual Studio Code'
+  description: Microsoft 365 Copilot agents let you create AI-powered assistants optimized
+    for specific scenarios. Using instructions, you define the context for the copilot
+    and configure its tone of voice or how it should respond. By configuring the agent's
+    knowledge, you give it access to external data that isn't a part of the Large
+    Language Model (LLM), so that it can respond more accurately.
+  duration: 16 minutes
+  level: 200
+  islab: true
+  primarytopics:
+  - Microsoft 365
+  - Microsoft 365 Copilot
 ---
 
 # Introduction
