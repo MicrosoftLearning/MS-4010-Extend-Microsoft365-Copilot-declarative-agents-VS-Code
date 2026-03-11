@@ -1,7 +1,13 @@
 ---
 lab:
-    title: 'Exercise 2 - Build API plugin definition'
-    module: 'LAB 02: Build your first action for declarative agents with API plugin by using Visual Studio Code'
+  title: Exercise 2 - Build API plugin definition
+  module: 'LAB 02: Build your first action for declarative agents with API plugin
+    by using Visual Studio Code'
+  description: 'The next step is to add the plugin definition to the project. The
+    plugin definition contains the following information:'
+  duration: 10 minutes
+  level: 200
+  islab: true
 ---
 
 # Exercise 2 - Build API plugin definition
