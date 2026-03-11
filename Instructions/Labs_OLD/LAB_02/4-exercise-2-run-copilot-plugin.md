@@ -1,7 +1,17 @@
 ---
 lab:
-    title: 'Exercise 2 - Run the sample as a Copilot plugin'
-    module: 'LAB 02: Build your own message extension plugin with TypeScript (TS) for Microsoft 365 Copilot'
+  title: Exercise 2 - Run the sample as a Copilot plugin
+  module: 'LAB 02: Build your own message extension plugin with TypeScript (TS) for
+    Microsoft 365 Copilot'
+  description: In this exercise, you'll run the application as a plugin for Microsoft
+    365 Copilot. You'll experiment with various prompts and you'll observe how the
+    plugin gets invoked using different parameters.
+  duration: 26 minutes
+  level: 200
+  islab: true
+  primarytopics:
+  - Microsoft 365
+  - Microsoft 365 Copilot
 ---
 
 # Exercise 2 - Run the sample as a Copilot plugin
