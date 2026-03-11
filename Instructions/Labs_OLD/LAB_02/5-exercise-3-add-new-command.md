@@ -1,7 +1,22 @@
 ---
 lab:
-    title: 'Exercise 3 - Add a new command'
-    module: 'LAB 02: Build your own message extension plugin with TypeScript (TS) for Microsoft 365 Copilot'
+  title: Exercise 3 - Add a new command
+  module: 'LAB 02: Build your own message extension plugin with TypeScript (TS) for
+    Microsoft 365 Copilot'
+  description: In this exercise, you'll enhance the Teams Message Extension and Copilot
+    plugin by adding a new command. While the current message extension effectively
+    provides information about products within the Northwind inventory database, it
+    doesn't provide information related to Northwind’s customers. You'll introduce
+    a new command associated with an API call that retrieves products ordered by a
+    customer name specified by the user. This exercise assumes you have completed
+    at least exercises 1, 2, and 3. It's fine to skip Exercise 4 in case you don't
+    have a Microsoft 365 Copilot license.
+  duration: 88 minutes
+  level: 100
+  islab: true
+  primarytopics:
+  - Microsoft 365
+  - Microsoft 365 Copilot
 ---
 
 # Exercise 3 - Add a new command
