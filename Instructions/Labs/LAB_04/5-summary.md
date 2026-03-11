@@ -1,3 +1,14 @@
+---
+lab:
+  title: Untitled exercise
+  description: You're looking into building a solution for your organization to answer
+    your colleagues' questions about IT policies. The solution must use authoritative
+    information stored in the policies management system.
+  duration: 10 minutes
+  level: 300
+  islab: true
+---
+
 You're looking into building a solution for your organization to answer your colleagues' questions about IT policies. The solution must use authoritative information stored in the policies management system.
 
 You did some research and found that building a declarative agent for Microsoft 365 Copilot, integrated with a Microsoft Graph connector is suitable for your needs, because:
