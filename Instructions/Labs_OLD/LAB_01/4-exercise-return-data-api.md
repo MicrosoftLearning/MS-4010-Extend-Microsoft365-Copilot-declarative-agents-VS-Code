@@ -1,7 +1,13 @@
 ---
 lab:
-    title: 'Exercise 3 - Return product data from Microsoft Entra protected API'
-    module: 'LAB 01: Connect Microsoft 365 Copilot to your external data in real-time with message extension plugins built with .NET and Visual Studio'
+  title: Exercise 3 - Return product data from Microsoft Entra protected API
+  module: 'LAB 01: Connect Microsoft 365 Copilot to your external data in real-time with message extension plugins built with .NET and Visual Studio'
+  description: In this exercise, you use Dev Proxy, a command-line tool that can simulate APIs. It's useful when you want to test your app without having to create a real API.
+  duration: 50 minutes
+  level: 200
+  islab: true
+  primarytopics:
+    - Microsoft Entra
 ---
 
 # Exercise 3 - Return product data from Microsoft Entra protected API
