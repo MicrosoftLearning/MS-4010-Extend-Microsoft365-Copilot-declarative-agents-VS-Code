@@ -1,7 +1,11 @@
 ---
 lab:
-    title: 'Exercise 3 - Connect the plugin definition to the declarative agent'
-    module: 'LAB 02: Build your first action for declarative agents with API plugin by using Visual Studio Code'
+  title: Exercise 3 - Connect the plugin definition to the declarative agent
+  module: 'LAB 02: Build your first action for declarative agents with API plugin by using Visual Studio Code'
+  description: The declarative agent that you're building in this exercise helps users browse the menu of the local Italian restaurant and place orders. To optimize the agent for this scenario, update its name, description, and instructions.
+  duration: 5 minutes
+  level: 100
+  islab: true
 ---
 
 # Exercise 3 - Connect the plugin definition to the declarative agent
