@@ -1,7 +1,17 @@
 ---
 lab:
-    title: 'Exercise 3 - Test and debug'
-    module: 'LAB 04: Add custom knowledge to declarative agents using Microsoft Graph connectors and Visual Studio Code'
+  title: Exercise 3 - Test and debug
+  module: 'LAB 04: Add custom knowledge to declarative agents using Microsoft Graph
+    connectors and Visual Studio Code'
+  description: In this exercise, you will test and deploy your declarative agent to
+    Microsoft 365 and test it using Microsoft 365 Copilot Chat.
+  duration: 5 minutes
+  level: 300
+  islab: true
+  primarytopics:
+  - Microsoft 365
+  - Microsoft 365 Copilot
+  - Microsoft 365 Copilot Chat
 ---
 
 # Exercise 3 - Test and debug
