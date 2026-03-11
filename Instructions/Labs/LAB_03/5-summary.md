@@ -1,3 +1,12 @@
+---
+lab:
+  title: Untitled exercise
+  description: Previously, when exploring the menu, you had to rely on the textual description of the dish.
+  duration: 10 minutes
+  level: 200
+  islab: true
+---
+
 You want to improve the user experience when working with your declarative agent. Specifically, you want the agent to present the data that it receives from the API in a rich way.
 
 You did some research and found that extending your agent with using Adaptive Cards to render information is suitable for your needs, because:

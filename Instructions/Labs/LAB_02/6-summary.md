@@ -1,3 +1,12 @@
+---
+lab:
+  title: Untitled exercise
+  description: Previously, you and your colleagues had to spend valuable time on the phone to learn about today's menu and place an order that meets everyone's dietary needs.
+  duration: 10 minutes
+  level: 200
+  islab: true
+---
+
 You're looking into building a solution for your organization that allows you to order food from a local restaurant. The solution must use natural language and integrate with Microsoft 365 Copilot.
 
 You did some research and found that building a declarative agent for Microsoft 365 Copilot, integrated with an API plugin is suitable for your needs, because:

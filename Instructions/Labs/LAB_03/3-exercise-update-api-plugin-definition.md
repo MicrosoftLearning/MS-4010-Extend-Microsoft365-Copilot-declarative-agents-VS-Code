@@ -1,7 +1,11 @@
 ---
 lab:
-    title: 'Exercise 2 - Update the API plugin definition'
-    module: 'LAB 03: Use Adaptive Cards to show data in API plugins for declarative agents'
+  title: Exercise 2 - Update the API plugin definition
+  module: 'LAB 03: Use Adaptive Cards to show data in API plugins for declarative agents'
+  description: The next step is to update the API plugin definition with Adaptive Cards that Copilot should use to display data from the API to users.
+  duration: 10 minutes
+  level: 200
+  islab: true
 ---
 
 # Exercise 2 - Update the API plugin definition

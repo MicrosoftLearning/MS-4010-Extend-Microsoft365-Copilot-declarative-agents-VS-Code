@@ -1,7 +1,14 @@
 ---
 lab:
-    title: 'Exercise 5 – Get answers based on external content in Copilot'
-    module: 'LAB 02: Integrate external content with Copilot for Microsoft 365 using Microsoft Graph connectors built with .NET'
+  title: Exercise 5 – Get answers based on external content in Copilot
+  module: 'LAB 02: Integrate external content with Copilot for Microsoft 365 using Microsoft Graph connectors built with .NET'
+  description: In this exercise, you use Copilot for Microsoft 365 to get answers related to using Microsoft Graph. Copilot uses the external content you ingested as a reference to provide you with answers.
+  duration: 24 minutes
+  level: 200
+  islab: true
+  primarytopics:
+    - Microsoft 365
+    - Microsoft Graph
 ---
 
 # Exercise 5 – Get answers based on external content in Copilot

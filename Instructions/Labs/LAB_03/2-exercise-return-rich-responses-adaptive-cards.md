@@ -1,7 +1,11 @@
 ---
 lab:
-  title: 'Exercise 1 - Download project and build an adaptive card'
+  title: Exercise 1 - Download project and build an adaptive card
   module: 'LAB 03: Use Adaptive Cards to show data in API plugins for declarative agents'
+  description: The sample API allows users to browse the menu and place an order. Let's create an adaptive card that shows the order summary.
+  duration: 10 minutes
+  level: 100
+  islab: true
 ---
 
 # Exercise 1 - Download project and build an adaptive card

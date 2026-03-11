@@ -1,7 +1,11 @@
 ---
 lab:
-    title: 'Exercise 3 - Ensure secure access with access control list'
-    module: 'LAB 02: Integrate external content with Copilot for Microsoft 365 using Microsoft Graph connectors built with .NET'
+  title: Exercise 3 - Ensure secure access with access control list
+  module: 'LAB 02: Integrate external content with Copilot for Microsoft 365 using Microsoft Graph connectors built with .NET'
+  description: In this exercise, you update the code responsible for importing local markdowns files with configuring ACLs on selected items.
+  duration: 56 minutes
+  level: 200
+  islab: true
 ---
 
 # Exercise 3 - Ensure secure access with access control list

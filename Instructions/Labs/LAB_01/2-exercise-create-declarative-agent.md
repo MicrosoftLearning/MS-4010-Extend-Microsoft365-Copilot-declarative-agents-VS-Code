@@ -1,7 +1,16 @@
 ---
 lab:
-    title: 'Exercise 1 - Create a declarative agent in Visual Studio Code'
-    module: 'LAB 01: Build a declarative agent for Microsoft 365 Copilot using Visual Studio Code'
+  title: Exercise 1 - Create a declarative agent in Visual Studio Code
+  module: 'LAB 01: Build a declarative agent for Microsoft 365 Copilot using Visual Studio Code'
+  description: In this exercise, you will create a declarative agent project from a template, update the manifest, upload the agent to Microsoft 365, and test the agent in Microsoft 365 Copilot.
+  duration: 15 minutes
+  level: 100
+  islab: true
+  primarytopics:
+    - Microsoft 365
+    - Microsoft 365 Copilot
+    - Visual Studio
+    - Visual Studio Code
 ---
 
 # Exercise 1 - Create a declarative agent

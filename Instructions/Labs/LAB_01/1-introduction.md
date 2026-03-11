@@ -1,7 +1,13 @@
 ---
 lab:
-    title: 'Introduction'
-    module: 'LAB 01: Build a declarative agent for Microsoft 365 Copilot using Visual Studio Code'
+  title: Introduction
+  module: 'LAB 01: Build a declarative agent for Microsoft 365 Copilot using Visual Studio Code'
+  description: 'Here, you create a declarative agent which can answer product support questions using information stored in documents in Microsoft 365:'
+  duration: 30 minutes
+  level: 100
+  islab: true
+  primarytopics:
+    - Microsoft 365
 ---
 
 # Introduction

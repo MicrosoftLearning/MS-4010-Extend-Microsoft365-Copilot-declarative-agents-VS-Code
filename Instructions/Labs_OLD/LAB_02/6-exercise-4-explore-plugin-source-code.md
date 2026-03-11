@@ -1,7 +1,11 @@
 ---
 lab:
-    title: 'Exercise 4 - Explore the plugin source code'
-    module: 'LAB 02: Build your own message extension plugin with TypeScript (TS) for Microsoft 365 Copilot'
+  title: Exercise 4 - Explore the plugin source code
+  module: 'LAB 02: Build your own message extension plugin with TypeScript (TS) for Microsoft 365 Copilot'
+  description: In this exercise, you'll review the application code so that you can understand how a Message Extension works.
+  duration: 30 minutes
+  level: 100
+  islab: true
 ---
 
 # Exercise 4 - Explore the plugin source code
