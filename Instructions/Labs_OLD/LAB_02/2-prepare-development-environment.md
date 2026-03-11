@@ -1,7 +1,13 @@
 ---
 lab:
-    title: 'Prepare your development environment'
-    module: 'LAB 02: Build your own message extension plugin with TypeScript (TS) for Microsoft 365 Copilot'
+  title: Prepare your development environment
+  module: 'LAB 02: Build your own message extension plugin with TypeScript (TS) for
+    Microsoft 365 Copilot'
+  description: First off, let's prepare your development environment, accounts, and
+    software. Before you can begin, you must complete the following tasks.
+  duration: 72 minutes
+  level: 100
+  islab: true
 ---
 
 # Prepare your development environment
