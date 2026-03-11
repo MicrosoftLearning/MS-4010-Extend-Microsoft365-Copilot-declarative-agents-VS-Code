@@ -1,7 +1,20 @@
 ---
 lab:
-  title: 'Exercise 3 - Integrate an API plugin with an API secured with OAuth'
-  module: 'LAB 05: Authenticate your API plugin for declarative agents with secured APIs'
+  title: Exercise 3 - Integrate an API plugin with an API secured with OAuth
+  module: 'LAB 05: Authenticate your API plugin for declarative agents with secured
+    APIs'
+  description: API plugins for Microsoft 365 Copilot allow you to integrate with APIs
+    secured with OAuth. You keep the client ID and secret of the app that protects
+    your API secure by registering them in the Teams vault. At runtime, Microsoft
+    365 Copilot executes your plugin, retrieves the information from the vault, and
+    uses it to get an access token and call the API. By following this process, the
+    client ID and secret stay secure and are never exposed to the client.
+  duration: 10 minutes
+  level: 400
+  islab: true
+  primarytopics:
+  - Microsoft 365
+  - Microsoft 365 Copilot
 ---
 
 # Exercise 3 - Integrate an API plugin with an API secured with OAuth
