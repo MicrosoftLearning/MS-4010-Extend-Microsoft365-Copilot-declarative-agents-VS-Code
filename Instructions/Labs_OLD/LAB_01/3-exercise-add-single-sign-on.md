@@ -1,7 +1,13 @@
 ---
 lab:
-    title: 'Exercise 2 - Add single sign-on'
-    module: 'LAB 01: Connect Microsoft 365 Copilot to your external data in real-time with message extension plugins built with .NET and Visual Studio'
+  title: Exercise 2 - Add single sign-on
+  module: 'LAB 01: Connect Microsoft 365 Copilot to your external data in real-time
+    with message extension plugins built with .NET and Visual Studio'
+  description: In this exercise, you add single sign-on to the message extension to
+    authenticate user queries.
+  duration: 40 minutes
+  level: 300
+  islab: true
 ---
 
 # Exercise 2 - Add single sign-on
