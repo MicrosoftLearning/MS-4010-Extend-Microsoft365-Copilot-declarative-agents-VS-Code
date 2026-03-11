@@ -1,7 +1,14 @@
 ---
 lab:
-    title: 'Exercise 2 - Run the sample as a Copilot plugin'
-    module: 'LAB 02: Build your own message extension plugin with TypeScript (TS) for Microsoft 365 Copilot'
+  title: Exercise 2 - Run the sample as a Copilot plugin
+  module: 'LAB 02: Build your own message extension plugin with TypeScript (TS) for Microsoft 365 Copilot'
+  description: After completing the tasks in this exercise, you should be able to use the Northwind Inventory plugin in Microsoft 365 Copilot.
+  duration: 26 minutes
+  level: 200
+  islab: true
+  primarytopics:
+    - Microsoft 365
+    - Microsoft 365 Copilot
 ---
 
 # Exercise 2 - Run the sample as a Copilot plugin
