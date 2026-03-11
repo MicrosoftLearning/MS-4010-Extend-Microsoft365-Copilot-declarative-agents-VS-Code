@@ -1,7 +1,14 @@
 ---
 lab:
-    title: 'Exercise 1 - Create a message extension'
-    module: 'LAB 01: Connect Microsoft 365 Copilot to your external data in real-time with message extension plugins built with .NET and Visual Studio'
+  title: Exercise 1 - Create a message extension
+  module: 'LAB 01: Connect Microsoft 365 Copilot to your external data in real-time with message extension plugins built with .NET and Visual Studio'
+  description: In this exercise, you create a message extension solution. You use Teams Toolkit in Visual Studio to create the required resources, then start a debug session and test in Microsoft Teams.
+  duration: 25 minutes
+  level: 300
+  islab: true
+  primarytopics:
+    - Microsoft Teams
+    - Visual Studio
 ---
 
 # Exercise 1 - Create a message extension
