@@ -1,7 +1,17 @@
 ---
 lab:
-    title: 'Exercise 1 - Configure an external connection and deploy schema'
-    module: 'LAB 02: Integrate external content with Copilot for Microsoft 365 using Microsoft Graph connectors built with .NET'
+  title: Exercise 1 - Configure an external connection and deploy schema
+  module: 'LAB 02: Integrate external content with Copilot for Microsoft 365 using
+    Microsoft Graph connectors built with .NET'
+  description: In this exercise, you build a custom Microsoft Graph connector as a
+    console application. You register a new Microsoft Entra app registration and add
+    the code to create an external connection and deploy its schema.
+  duration: 152 minutes
+  level: 300
+  islab: true
+  primarytopics:
+  - Microsoft Entra
+  - Microsoft Graph
 ---
 
 # Exercise - Configure an external connection and deploy schema
