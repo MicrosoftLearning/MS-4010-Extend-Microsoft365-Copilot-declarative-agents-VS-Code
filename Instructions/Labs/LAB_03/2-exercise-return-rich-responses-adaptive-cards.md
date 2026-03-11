@@ -1,7 +1,20 @@
 ---
 lab:
-  title: 'Exercise 1 - Download project and build an adaptive card'
-  module: 'LAB 03: Use Adaptive Cards to show data in API plugins for declarative agents'
+  title: Exercise 1 - Download project and build an adaptive card
+  module: 'LAB 03: Use Adaptive Cards to show data in API plugins for declarative
+    agents'
+  description: Let's start by building Adaptive Card templates for the agent to show
+    the data in its responses. To build the Adaptive Card template, you use the Adaptive
+    Card Previewer Visual Studio Code extensions to easily preview your work directly
+    in Visual Studio Code. Using the extension allows us to build an Adaptive Card
+    template, with references to data. At runtime, the agent fills the placeholder
+    with data it retrieves from the API.
+  duration: 10 minutes
+  level: 100
+  islab: true
+  primarytopics:
+  - Visual Studio
+  - Visual Studio Code
 ---
 
 # Exercise 1 - Download project and build an adaptive card
