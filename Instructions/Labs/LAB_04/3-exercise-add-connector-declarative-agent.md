@@ -1,7 +1,13 @@
 ---
 lab:
-    title: 'Exercise 2 - Create declarative agent and integrate Graph connector'
-    module: 'LAB 04: Add custom knowledge to declarative agents using Microsoft Graph connectors and Visual Studio Code'
+  title: Exercise 2 - Create declarative agent and integrate Graph connector
+  module: 'LAB 04: Add custom knowledge to declarative agents using Microsoft Graph
+    connectors and Visual Studio Code'
+  description: In this exercise, you will create a new declarative agent from scratch
+    and configure it to use the external connection as its grounding source.
+  duration: 10 minutes
+  level: 200
+  islab: true
 ---
 
 # Exercise 2 - Create declarative agent and integrate Graph connector
