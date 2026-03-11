@@ -1,7 +1,11 @@
 ---
 lab:
-  title: 'Exercise 1 - Integrate an API plugin with an API secured with a key'
+  title: Exercise 1 - Integrate an API plugin with an API secured with a key
   module: 'LAB 05: Authenticate your API plugin for declarative agents with secured APIs'
+  description: In this exercise, you create a new declarative agent with an API plugin that authenticates with an API key that you generate.
+  duration: 10 minutes
+  level: 300
+  islab: true
 ---
 
 # Exercise 1 - Integrate an API plugin with an API secured with a key
