@@ -1,7 +1,16 @@
 ---
 lab:
-    title: 'Exercise 2 - Import external content'
-    module: 'LAB 02: Integrate external content with Copilot for Microsoft 365 using Microsoft Graph connectors built with .NET'
+  title: Exercise 2 - Import external content
+  module: 'LAB 02: Integrate external content with Copilot for Microsoft 365 using
+    Microsoft Graph connectors built with .NET'
+  description: In this exercise, you extend the custom Microsoft Graph connector with
+    the code to import local markdown files to Microsoft 365.
+  duration: 114 minutes
+  level: 300
+  islab: true
+  primarytopics:
+  - Microsoft 365
+  - Microsoft Graph
 ---
 
 # Exercise - Import external content
