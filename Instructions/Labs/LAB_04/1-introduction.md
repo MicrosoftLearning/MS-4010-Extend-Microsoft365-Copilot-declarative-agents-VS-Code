@@ -1,7 +1,15 @@
 ---
 lab:
-    title: 'Introduction'
-    module: 'LAB 04: Add custom knowledge to declarative agents using Microsoft Graph connectors and Visual Studio Code'
+  title: Introduction
+  module: 'LAB 04: Add custom knowledge to declarative agents using Microsoft Graph connectors and Visual Studio Code'
+  description: By the end of this module, you'll be able to build declarative agents for Microsoft 365 Copilot. You'll understand how to configure their instructions to optimize them for a specific scenario. You'll also know how to integrate them with Microsoft Graph connectors to give them access to external data, that's not a part of the Microsoft 365 Copilot's LLM.
+  duration: 16 minutes
+  level: 200
+  islab: true
+  primarytopics:
+    - Microsoft 365
+    - Microsoft 365 Copilot
+    - Microsoft Graph
 ---
 
 # Introduction
