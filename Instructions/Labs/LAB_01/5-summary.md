@@ -1,3 +1,12 @@
+---
+lab:
+  title: Untitled exercise
+  description: Untitled exercise
+  duration: 10 minutes
+  level: 100
+  islab: true
+---
+
 In this lab, you learned how to:
 
 - Create a declarative agent project and use Teams Toolkit in Visual Studio Code.
