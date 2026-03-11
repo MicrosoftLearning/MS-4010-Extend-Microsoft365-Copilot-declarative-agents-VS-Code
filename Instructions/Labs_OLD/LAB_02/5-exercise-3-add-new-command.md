@@ -1,7 +1,11 @@
 ---
 lab:
-    title: 'Exercise 3 - Add a new command'
-    module: 'LAB 02: Build your own message extension plugin with TypeScript (TS) for Microsoft 365 Copilot'
+  title: Exercise 3 - Add a new command
+  module: 'LAB 02: Build your own message extension plugin with TypeScript (TS) for Microsoft 365 Copilot'
+  description: In this exercise, we'll copy some of the existing code to create new handlers for our commands.
+  duration: 88 minutes
+  level: 100
+  islab: true
 ---
 
 # Exercise 3 - Add a new command
