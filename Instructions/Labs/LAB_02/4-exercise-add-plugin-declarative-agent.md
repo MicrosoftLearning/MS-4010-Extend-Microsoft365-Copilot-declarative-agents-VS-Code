@@ -1,7 +1,15 @@
 ---
 lab:
-    title: 'Exercise 3 - Connect the plugin definition to the declarative agent'
-    module: 'LAB 02: Build your first action for declarative agents with API plugin by using Visual Studio Code'
+  title: Exercise 3 - Connect the plugin definition to the declarative agent
+  module: 'LAB 02: Build your first action for declarative agents with API plugin
+    by using Visual Studio Code'
+  description: After you complete building the API plugin definition, the next step
+    is to register it with the declarative agent. When users interact with the declarative
+    agent, it matches the user's prompt against the defined API plugins and invokes
+    the relevant functions.
+  duration: 5 minutes
+  level: 100
+  islab: true
 ---
 
 # Exercise 3 - Connect the plugin definition to the declarative agent
