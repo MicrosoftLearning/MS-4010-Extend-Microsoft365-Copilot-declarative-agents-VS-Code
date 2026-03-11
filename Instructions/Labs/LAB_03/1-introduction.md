@@ -1,7 +1,16 @@
 ---
 lab:
-    title: 'Introduction'
-    module: 'LAB 03: Use Adaptive Cards to show data in API plugins for declarative agents'
+  title: Introduction
+  module: 'LAB 03: Use Adaptive Cards to show data in API plugins for declarative
+    agents'
+  description: By extending declarative agents with actions, you can connect them
+    to external systems and services through their APIs. Connecting an agent to your
+    existing systems can help you automate tasks and get insights using natural language.
+    To improve the user experience, you can use Adaptive Cards to render information
+    that the agent retrieves from APIs in a visually appealing way.
+  duration: 35 minutes
+  level: 300
+  islab: true
 ---
 
 # Introduction
