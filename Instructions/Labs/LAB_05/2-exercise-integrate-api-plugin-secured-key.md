@@ -1,7 +1,19 @@
 ---
 lab:
-  title: 'Exercise 1 - Integrate an API plugin with an API secured with a key'
-  module: 'LAB 05: Authenticate your API plugin for declarative agents with secured APIs'
+  title: Exercise 1 - Integrate an API plugin with an API secured with a key
+  module: 'LAB 05: Authenticate your API plugin for declarative agents with secured
+    APIs'
+  description: API plugins for Microsoft 365 Copilot allow you to integrate with APIs
+    secured with a key. You keep the API key secure by registering it in the Teams
+    vault. At runtime, Microsoft 365 Copilot executes your plugin, retrieves the API
+    key from the vault, and uses it to call the API. By following this process, the
+    API key stays secure and is never exposed to the client.
+  duration: 10 minutes
+  level: 300
+  islab: true
+  primarytopics:
+  - Microsoft 365
+  - Microsoft 365 Copilot
 ---
 
 # Exercise 1 - Integrate an API plugin with an API secured with a key
