@@ -1,7 +1,13 @@
 ---
 lab:
-    title: 'Exercise 1 - Run the sample as a message extension'
-    module: 'LAB 02: Build your own message extension plugin with TypeScript (TS) for Microsoft 365 Copilot'
+  title: Exercise 1 - Run the sample as a message extension
+  module: 'LAB 02: Build your own message extension plugin with TypeScript (TS) for Microsoft 365 Copilot'
+  description: After following all the tasks in this exercise, you should have a working message extension application that can be used as a Microsoft 365 plugin for Teams or Outlook.
+  duration: 62 minutes
+  level: 200
+  islab: true
+  primarytopics:
+    - Microsoft 365
 ---
 
 # Exercise 1 - Run the sample as a message extension
